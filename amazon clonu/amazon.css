@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  /*   border: 2px solid red; */
+  height: 65px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.logo img {
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1px solid transparent;
+  height: 100%;
+  /* display: flex;
+    justify-content: center;
+    cursor: pointer; */
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+.add-first {
+  color: aliceblue;
+  font-size: 13.6px;
+  margin-left: 3px;
+}
+.add-second {
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.search-select {
+  background-color: white;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  outline: none;
+}
+.search-input {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-indent: 15px;
+}
+.search-icon {
+  width: 45px;
+  background-color: orange;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+.nav-cart span {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 11px;
+  font-weight: 700;
+}
+.panel {
+  background-color: #222f3d;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-ops {
+  width: 70%;
+}
+
+.panel-ops p {
+  display: inline-flex;
+  height: 40px;
+  margin-left: 15px;
+  padding: 0 3px;
+}
+.hero-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 1.3;
+  margin: 55px;
+}
+
+.hero-msg img {
+  width: 900px;
+  cursor: pointer;
+}
+.hero-section {
+  background-size: cover;
+}
+.p {
+  color: black;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  display: flex;
+  margin-bottom: -25px;
+  background-color: grey;
+  background-size: cover;
+}
+.shop-section {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+}
+
+.box-img {
+  height: 250px;
+  width: 150px;
+  background-size: cover;
+  margin: 16px 0;
+}
+.box {
+  height: 420px;
+  width: 23%;
+  padding: 15px 15px;
+  margin-top: 15px;
+}
+.prg {
+  font-weight: bold;
+}
+
+.box-img:hover {
+  cursor: pointer;
+}
+
+.prg:hover {
+  cursor: pointer;
+}
+
+.box-content {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.container {
+  background-color: #535f6b2d;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #6ca6b3;
+}
+.title a:hover {
+  text-decoration: underline;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+.box1 {
+  height: 330px;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.image img {
+  height: 250px;
+  width: 100%;
+}
+
+.box1-content {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: start;
+}
+.box1-content p {
+  color: red;
+  font-size: 15px;
+}
+
+.box1-content p span {
+  font-size: 15px;
+  background-color: red;
+  color: azure;
+  margin-right: 6px;
+}
+.foot-panel1{
+  background-color: #364759;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.foot-panel1 a{
+  color: white;
+}
+.foot-panel1:hover{
+  opacity: 0.8;
+  transition: .5s;
+  cursor: pointer;
+}
+.footerson{
+  background-color: #222f3d;
+  color: azure;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+ 
+}
+.ortak{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 15px;
+  
+
+}
+
